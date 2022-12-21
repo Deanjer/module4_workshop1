@@ -4,7 +4,7 @@ console.log(eersteVariabele);
 var voornaam = "Dean"; // wijzig dit in jouw eigen voornaam
 var tussenvoegsel = "Jeremy"; // wijzig dit in jouw eigen eventuele tussenvoegsel
 var achternaam = "Blok"; // wijzig dit in jouw eigen achternaam
-var volledigeNaam = "Dean Jeremy Blok"; // plak hier de 3 bovenstaande variabelen aan elkaar, met spaties
+var volledigeNaam = voornaam + " " + tussenvoegsel + " " +achternaam; // plak hier de 3 bovenstaande variabelen aan elkaar, met spaties
 var geboortedag = "8"; // je geboortedag
 var geboortemaand = "Maart"; // je geboortemaand
 var geboortejaar = "2006"; // je geboortejaar
@@ -22,9 +22,9 @@ var huisnummer = "4"; // je huisnummer;
 var woonplaats = "Vleuten"; // je woonplaats;
 // var woonachtig_in_utrecht = ; // check hier dmv een boolean of jouw woonplaats gelijk is aan "Utrecht"
 const woonachtig_in_utrecht = new Boolean(true); 
-var aantal_studenten_in_deze_klas = 3;
+var aantal_studenten_in_deze_klas = 24;
 var kosten_van_frikandelbroodje = 1.76;
-var totale_lunchkosten = 2 * 3 * 1.76; // bereken hier het totaalbedrag als iedere student 2 frikandelbroodjes zou kopen
+var totale_lunchkosten = 2 * aantal_studenten_in_deze_klas * kosten_van_frikandelbroodje; // bereken hier het totaalbedrag als iedere student 2 frikandelbroodjes zou kopen
 
 
 
